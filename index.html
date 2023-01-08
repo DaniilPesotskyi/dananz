@@ -5,25 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dananz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#">
-                <img src="" alt="">
-            </a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Our Teams</a></li>
-            </ul>
-            <a href="#">Contact Us</a>
-        </nav>
+    <header class="page-header">
+        <div class="container">
+            <nav class="navigation">
+                <a class="logo" href="#">
+                    <img src="./images/icons/logo.svg" alt="site logo" width="126" height="54">
+                </a>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#">Home</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">About Us</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Services</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Our Teams</a></li>
+                </ul>
+                <a class="navigation__button main-button" href="#">Contact Us</a>
+            </nav>
+        </div>
     </header>
     <main>
-        
+        <section class="section hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Design your interor with high quality.</h1>
+                    <ul class="hero__stat-wrap">
+                        <li class="hero__stat-item">
+                            <span class="hero__stat-value">350+</span>
+                            <span class="hero__stat-name">Project Completed</span>
+                        </li>
+                        <li class="hero__stat-item">
+                            <span class="hero__stat-value">23+</span>
+                            <span class="hero__stat-name">Professional Teams</span>
+                        </li>
+                        <li class="hero__stat-item">
+                            <span class="hero__stat-value">15+</span>
+                            <span class="hero__stat-name">Years Experience</span>
+                        </li>
+                    </ul>
+                    <p class="hero__copy">2022 ALL RIGHT RESERVED</p>
+                </div>
+                <picture>
+                    <source srcset="./images/home/hero-kitchen.jpg 1x, ./images/home/hero-kitchen.jpg 2x">
+                    <img class="hero__img" src="./images/home/hero-kitchen.jpg" alt="" width="" height="">
+                </picture>
+            </div>
+        </section>
     </main>
     <footer>
 

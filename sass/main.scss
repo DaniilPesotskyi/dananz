@@ -1,0 +1,18 @@
+@import "./base/normalize";
+@import "./base/common";
+@import "./base/reset";
+@import "./base/container";
+@import "./utils/vars";
+
+@import "./base/buttons";
+
+@import "./components/header";
+
+// HOME PAGE
+@import "./components/home/hero";
+@import "./components/home/about";
+@import "./components/home/service";
+@import "./components/home/product";
+@import "./components/home/material";
+
+@import "./components/footer";

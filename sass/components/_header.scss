@@ -1,0 +1,40 @@
+.page-header {
+    margin-bottom: 45px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+    gap: 74px;
+
+    margin-left: 360px;
+}
+
+.navigation__item {
+
+}
+
+.navigation__link {
+    display: inline-block;
+    padding: 55px 0px;
+
+    font-size: 16px;
+    line-height: 1.6;
+    color: $clr-grayscale-50;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,        
+    &:focus {
+        color: $clr-blue-75;
+    }
+}
+
+.navigation__button {
+    margin-left: auto;
+}
