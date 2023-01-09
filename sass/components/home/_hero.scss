@@ -1,7 +1,5 @@
-.hero {
-}
-
 .hero__content {
+    position: relative;
     display: flex;
 }
 
@@ -26,7 +24,9 @@
 }
 
 .hero__stat-wrap {
-    width: fit-content;
+    width: 270px;
+    margin-top: 140px;
+    margin-left: 125px;
 
     display: flex;
     flex-direction: column;
@@ -57,15 +57,21 @@
 }
 
 .hero__copy {
+    position: absolute;
+    right: 0;
+    top: 113px;
+
     font-weight: 500;
     font-size: 18px;
     line-height: 1.5;
     color: $clr-grayscale-50;
 
-    transform: rotate(-90deg);
+    transform-origin: top right;
+    transform: rotate(-90deg) translateY(-54px);
 }
 
 .hero__img {
+    margin-top: -214px;
     width: 100%;
     height: auto;
 }
