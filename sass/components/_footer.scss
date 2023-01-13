@@ -1,0 +1,35 @@
+.footer-contact {
+    background-color: $clr-primary-blue;
+    padding: 38px 0px;
+}
+
+.footer-contact__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contact__title {
+    width: 613px;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.7;
+    color: $clr-white;
+}
+
+.footer-contact__offer-wrap {
+    width: 432px;
+}
+
+.footer-contact__text {
+    margin-bottom: 20px;
+
+    font-size: 18px;
+    line-height: 1.6;
+    color: $clr-light-grey;
+}
+
+.footer-contact__btn {
+
+}

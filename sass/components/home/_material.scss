@@ -54,13 +54,28 @@
 
 .material__gallery {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 623px;
     height: 490px;
+
 }
 
 .material__item {
+    &:nth-child(1) {
+        margin-top: 100px;
+    }
+
+    &:nth-child(2) {
+        margin-left: 40px;
+    }
+
+    &:nth-child(3) {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
 }
 
 .material__img {
+
 }
