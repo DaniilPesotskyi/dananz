@@ -85,6 +85,8 @@
 .footer-block-secondary__input-wrap {
     position: relative;
 
+    margin-bottom: 40px;
+
     display: flex;
     align-items: center;
     width: 440px;
@@ -114,7 +116,7 @@
 .footer-block-secondary__label {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 5px;
 
     transform: translateY(-50%);
 
@@ -126,10 +128,12 @@
 }
 
 .footer-block-secondary__sub-btn {
-    padding: 0;
+    width: 30px;
+    height: 30px;
 
-    width: 25px;
-    height: 10px;
+    margin-left: auto;
+
+    padding: 0;
 
     display: flex;
     justify-content: center;
@@ -139,12 +143,47 @@
     border: 0;
 
     cursor: pointer;
-
-    outline: 1px solid tomato;
 }
 
 .footer-block-secondary__sub-icon-wrap {
-    fill: 0;
-    stroke: black;
+    width: 100%;
+    height: 100%;
+
+    fill: transparent;
+    stroke: $clr-grayscale-black;
 }
 
+.footer-block-secondary__social-wrap {
+    width: 203px;
+    margin-left: auto;
+}
+
+.footer-block-secondary__social-title {
+    margin-bottom: 15px;
+
+    font-size: 16px;
+    line-height: 1.6;
+    color: $clr-grayscale-50;
+}
+
+.footer-block-secondary__social-list {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-block-secondary__social-item {
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: $clr-light-grey;
+}
+
+.footer-block-secondary__social-icon {
+    fill: $clr-grayscale-black;
+}
