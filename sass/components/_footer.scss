@@ -1,6 +1,12 @@
+.footer {
+    padding-bottom: 80px;
+}
+
 .footer-contact {
-    background-color: $clr-primary-blue;
+    margin-bottom: 80px;
     padding: 38px 0px;
+
+    background-color: $clr-primary-blue;
 }
 
 .footer-contact__wrap {
@@ -30,6 +36,115 @@
     color: $clr-light-grey;
 }
 
-.footer-contact__btn {
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-block-main__wrap {
+}
+
+.footer-block-main__text {
+    width: 480px;
+    margin-top: 10px;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.7;
+    color: $clr-grayscale-50;
+}
+
+.footer-block-secondary__wrap {
 
 }
+
+.footer-block-secondary__text {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 15px;
+
+    font-size: 18px;
+    line-height: 1.6;
+    color: $clr-grayscale-50;
+
+    &::before {
+        content: ' ';
+
+        display: block;
+        width: 14px;
+        height: 14px;
+        margin-right: 10px;
+
+        border-radius: 50%;
+        background-color: $clr-grayscale-50;
+    }
+}
+
+.footer-block-secondary__input-wrap {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    width: 440px;
+    height: 50px;
+
+    &::after {
+        content: '';
+        position: absolute;
+
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        height: 1px;
+        background-color: $clr-grayscale-70;
+    }
+}
+
+.footer-block-secondary__input {
+    width: 400px;
+    height: 100%;
+
+    border: 0;
+    outline: 0;
+}
+
+.footer-block-secondary__label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    transform: translateY(-50%);
+
+    font-size: 16px;
+    line-height: 1.6;
+    color: $clr-light-grey;
+
+    pointer-events: none;
+}
+
+.footer-block-secondary__sub-btn {
+    padding: 0;
+
+    width: 25px;
+    height: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: transparent;
+    border: 0;
+
+    cursor: pointer;
+
+    outline: 1px solid tomato;
+}
+
+.footer-block-secondary__sub-icon-wrap {
+    fill: 0;
+    stroke: black;
+}
+

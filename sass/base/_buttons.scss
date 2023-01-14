@@ -16,8 +16,30 @@
 
     &:hover,
     &:focus {
-        background-color: $clr-blue-50;
+        background-color: $clr-blue-75;
         border: 1px solid $clr-blue-50;
+        color: $clr-grayscale-70;
+    }
+}
+
+.white-main-btn {
+    display: inline-block;
+    padding: 14px 32px;
+
+    border: 0;
+    background-color: $clr-white;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: $clr-grayscale-50;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $clr-blue-50;
         color: $clr-grayscale-70;
     }
 }
