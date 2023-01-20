@@ -55,3 +55,13 @@
     line-height: 1.5;
     color: $clr-grayscale-50;
 }
+
+.arrow-link-hover {
+    stroke: $clr-grayscale-black;
+
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        stroke: $clr-blue-90;
+    } 
+}
